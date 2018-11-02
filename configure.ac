@@ -222,8 +222,8 @@ AC_CONFIG_FILES([
 ])
 
 # Compiler flags
-CFLAGS+=" -std=c99"
-CXXFLAGS+=" -std=c++98"
+CFLAGS+=" -std=c11"
+CXXFLAGS+=" -std=c++11"
 CPPFLAGS+=" -Wall -Wno-deprecated-declarations -Wno-address"
 
 # Output result
